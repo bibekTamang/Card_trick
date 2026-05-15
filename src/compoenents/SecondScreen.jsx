@@ -75,7 +75,7 @@ export default function SecondScreen({
           setResultCard(resultcard);
           setShowResult(true);
         }
-      }, 1500);
+      }, 500);
     }
   };
 
@@ -86,7 +86,7 @@ export default function SecondScreen({
   return (
     <div className="h-full w-full flex flex-col justify-center items-center">
       <p className="text-xl pb-4">
-        Choose the column in which you see your card.
+        Click on the column in which you see your card.
       </p>
       {noOfClick === 2 && (
         <span className="text-lg pb-2 font-medium">Again !</span>

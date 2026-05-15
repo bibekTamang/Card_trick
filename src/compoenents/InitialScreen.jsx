@@ -5,8 +5,8 @@ export default function InitialScreen({ cardList, setSecondScreen }) {
   return (
     <div className="h-full flex flex-col justify-center items-center">
       <p className="text-2xl pb-10 text-center leading-relaxed text-gray-700">
-        This is a magic trick, that will tell the card you think in you mind,
-        <br /> pick you card in mind and click on go.
+         Think a card in your mind and,
+        <br /> Click on go.
       </p>
       <InitialCardList cardList={cardList} />
       <button
